@@ -57,6 +57,19 @@ a {
   width: 90%;
 }
 
+.hidden-detail .detail-image-container {
+  display: none;
+}
+
+.hidden-detail .thumbnail-list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden-detail .thumbnail-item {
+  max-width: 80%;
+}
+
 .detail-image-title {
   position: absolute;
   bottom: -16px;
